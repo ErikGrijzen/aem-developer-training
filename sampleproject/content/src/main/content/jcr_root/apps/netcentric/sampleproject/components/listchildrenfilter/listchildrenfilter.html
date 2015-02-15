@@ -1,0 +1,8 @@
+<html data-sly-use.lister="${'biz.netcentric.cq.training.ui.ChildPageLister' @ initial='S'}">
+	<body>
+    	<h1>Child pages of "${currentPage.title}" that start with "${lister.filter}"</h1>
+        <ul data-sly-list.child="${lister.children}">
+        	<li><a href="${child.path}.html">${child.title}</a></li>
+        </ul>
+    </body>
+</html>
