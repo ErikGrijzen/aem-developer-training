@@ -1,0 +1,12 @@
+<div data-sly-use.topic="biz.netcentric.cq.training.ui.topic.Topic" data-sly-unwrap>
+    <div class="Grid-standardWidth">
+	    <div class="Leadtext Grid-standardSpacing">
+            <h3>Topic keyword: ${properties.topic}</h3>
+            <div data-sly-test="${topic.results}">
+                <ul data-sly-list="${topic.results}">
+                    <li><a href="${item.path}.html">${item.title}</a></li>
+                </ul>
+            </div>
+	    </div>
+	</div>
+</div>

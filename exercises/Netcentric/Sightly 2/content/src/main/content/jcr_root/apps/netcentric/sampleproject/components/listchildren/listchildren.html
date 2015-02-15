@@ -1,0 +1,8 @@
+<html data-sly-use.lister="${'biz.netcentric.cq.training.ui.ChildPageLister'}">
+	<body>
+    	<h1>Children of ${currentPage.title}</h1>
+        <ul data-sly-list.child="${lister.children}">
+        	<li><a href="${child.path}.html">${child.title}</a></li>
+        </ul>
+    </body>
+</html>
