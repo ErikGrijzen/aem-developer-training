@@ -12,7 +12,7 @@ public class ChildPageLister extends WCMUse {
 
     List<Page> children = new LinkedList<Page>();
 
-    private String filter = "default";
+    private String filter;
     
     @Override
     public void activate() throws Exception {
