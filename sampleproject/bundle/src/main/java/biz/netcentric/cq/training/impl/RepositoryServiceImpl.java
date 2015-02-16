@@ -24,6 +24,10 @@ public class RepositoryServiceImpl implements RepositoryService {
     public String getRepositoryName() {
         return repository.getDescriptor(Repository.REP_NAME_DESC);    
     }
+
+    public String getRepositoryVersion() {
+        return repository.getDescriptor(Repository.REP_VERSION_DESC);
+    }
         
     @Activate
     protected void activate() {

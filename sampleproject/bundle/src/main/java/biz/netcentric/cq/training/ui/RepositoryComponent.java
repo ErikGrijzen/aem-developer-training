@@ -25,4 +25,7 @@ public class RepositoryComponent extends WCMUse {
         return repoService.getRepositoryName();
     }
 
+    public String getRepositoryVersion() {
+        return repoService.getRepositoryVersion();
+    }
 }
