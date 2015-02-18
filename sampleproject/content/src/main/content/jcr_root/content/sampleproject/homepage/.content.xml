@@ -4,5 +4,5 @@
     <jcr:content
         jcr:primaryType="cq:PageContent"
         jcr:title="Home Page"
-        sling:resourceType="netcentric/sampleproject/components/basepage"/>
+        sling:resourceType="netcentric/sampleproject/pages/homepage"/>
 </jcr:root>
