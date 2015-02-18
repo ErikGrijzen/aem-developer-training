@@ -1,0 +1,1 @@
+console.log("JavaScript client library is loaded.");
