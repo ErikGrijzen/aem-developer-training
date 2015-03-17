@@ -10,5 +10,9 @@ public class SimpleUnitTest {
     public void someTest() {
         assertTrue(true);
     }
-
+    
+    @Test
+    public void anotherTest() {
+        assertTrue(false);
+    }
 }
